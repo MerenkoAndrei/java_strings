@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SequentialWordsNumbers {
     public static void main(String[] args) {
-        System.out.println("Введите текст: ");
+        System.out.println("Введите номер: ");
         String text = new Scanner(System.in).nextLine();
         System.out.println(sequentialWordsNumbers(text));
     }
