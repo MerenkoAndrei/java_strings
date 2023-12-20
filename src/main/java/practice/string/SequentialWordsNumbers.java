@@ -14,8 +14,7 @@ public class SequentialWordsNumbers {
         int num = 0;
         String word = "";
         String newText = text.trim() + " ";
-        if (text == "") {
-        } else {
+        if (!text.equals("")) {
             for (int i = 0; i < newText.length(); i++) {
                 if (newText.length() <= 2 && !Character.isLetter(newText.charAt(i))) {
                     word = "";
